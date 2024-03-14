@@ -1,0 +1,505 @@
+@media screen and (max-width: 2561px) {
+    html {
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+    
+    .container_lista {
+        text-align: center;
+        width: 80%;
+        margin-top: 2rem;
+        padding: 1.5rem;
+        position: relative;
+        height: -webkit-fill-available;
+    }
+
+    .container_titulo {
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .container_entrada {
+        display: flex;
+        width: -webkit-fill-available;
+        margin-left: 3rem;
+    }
+    
+    .titulo {
+        color: #333;
+        font-size: 10rem;
+        font-family: monospace;
+        margin: 0rem;
+        padding: 0.5rem;
+    }
+    
+    .entradaItem {
+        padding: 0.5rem;
+        font-size: 5rem;
+        margin-right: 1rem;
+        border: 1px solid black;
+        width: 100%;
+    }
+    
+    .botao {
+        padding: 0.5rem;
+        font-size: 5rem;
+        cursor: pointer;
+        background-color: darkseagreen;
+        border-radius: 50% 50% 50% 50%;
+        width: 35%;
+        margin-left: 2rem;
+        border: 1px solid black;
+    }
+    .botao:hover{
+        font-size: 5.3rem;
+        background-color: rgba(198, 242, 109, 0.637);
+    }
+    
+    .listaCompra {
+        list-style-type: none;
+        margin-top: 4rem;
+    }
+
+    span {
+        font-size: 5rem;
+        padding: 0.5rem;
+    }
+    
+    li {
+        background-color: #f0f0f0;
+        margin: 5px;
+        padding: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid;
+    }
+    
+    .checkbox {
+        width: 4rem;
+        height: 4rem; 
+        margin-right: 1rem;
+    }
+
+    .delete-btn {
+        background-color: #ff6666;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 5rem;
+    }
+    .delete-btn:hover {
+        font-size: 5.2rem;
+        background-color: #f30d0d;
+    }
+    
+}
+
+@media screen and (max-width: 1441px) {
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+    
+    .container_lista {
+        width: 90%;
+    }
+
+    .titulo {
+        font-size: 5rem;
+    }
+    
+    .entradaItem {
+        font-size: 2.5rem;
+        width: 63%;
+    }
+    
+    .botao {
+        font-size: 2.5rem;
+        width: 30%;
+        margin-left: 2rem;
+    }
+    .botao:hover{
+        font-size: 2.8rem;
+        width: 30%;
+    }
+    
+    .listaCompra {
+        list-style-type: none;
+        margin-top: 4rem;
+    }
+
+    span {
+        font-size: 2.5rem;
+    }
+    
+    li {
+        padding: 0px;
+        
+        margin-left: -2rem;
+    }
+    
+    .checkbox {
+        width: 2.5rem;
+        height: 3rem; 
+    }
+
+    .delete-btn {
+        font-size: 2.5rem;
+    }
+    .delete-btn:hover {
+        font-size: 2.7rem;
+    }
+    
+}
+
+@media screen and (max-width: 1025px) {
+    
+    .container_lista {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+    
+    .entradaItem {
+        font-size: 2rem;
+    }
+    
+    .botao {
+        font-size: 2rem;
+        width: 30%;
+        margin-left: 1rem;
+    }
+    .botao:hover{
+        font-size: 2.2rem;
+        width: 30%;
+    }
+    
+    .listaCompra {
+        margin-top: 2rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+    
+    .checkbox {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .delete-btn {
+        font-size: 2rem;
+    }
+    .delete-btn:hover {
+        font-size: 2.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 865px){
+    .entradaItem {
+        font-size: 2rem;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 801px) {
+    
+    .container_lista {
+        margin-top: -1rem;
+        padding: 0.5rem;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+    
+    .entradaItem {
+        font-size: 2rem;
+        width: 60%;
+    }
+    
+    .botao {
+        font-size: 2rem;
+        width: 30%;
+        margin-left: 1rem;
+    }
+    .botao:hover{
+        font-size: 2.2rem;
+        width: 30%;
+    }
+    
+    .listaCompra {
+        margin-top: 2rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+    
+    .checkbox {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .delete-btn {
+        font-size: 2rem;
+    }
+    .delete-btn:hover {
+        font-size: 2.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+    
+    .container_lista {
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+    
+    .entradaItem {
+        font-size: 1.5rem;
+    }
+    
+    .botao {
+        font-size: 1.7rem;
+        width: 25%;
+        margin-left: 1rem;
+    }
+    .botao:hover{
+        font-size: 1.7rem;
+        width: 26%;
+    }
+    
+    .listaCompra {
+        margin-top: 2rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+    
+    .checkbox {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .delete-btn {
+        font-size: 1.5rem;
+    }
+    .delete-btn:hover {
+        font-size: 1.7rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+    .container_lista {
+        width: 90%;
+        margin-top: -1rem;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+    
+    .entradaItem {
+        font-size: 1.5rem;
+        width: 62%;
+        margin-left: -2rem;
+    }
+    
+    .botao {
+        font-size: 1.7rem;
+        width: 25%;
+        margin-left: 1rem;
+    }
+    .botao:hover{
+        font-size: 1.7rem;
+        width: 26%;
+    }
+    
+    .listaCompra {
+        margin-top: 2rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+    
+    .checkbox {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .delete-btn {
+        font-size: 1.5rem;
+    }
+    .delete-btn:hover {
+        font-size: 1.7rem;
+    }
+    
+}
+
+@media screen and (max-width: 426px) {
+    
+    .container_lista {
+        width: 90%;
+        margin-top: 0rem;
+    }
+
+    .titulo {
+        font-size: 1.7rem;
+    }
+    
+    .entradaItem {
+        font-size: 1rem;
+    }
+    
+    .botao {
+        font-size: 1rem;
+        width: 30%;
+        margin-left: 1rem;
+    }
+    .botao:hover{
+        font-size: 1.2rem;
+        width: 34%;
+    }
+    
+    .listaCompra {
+        margin-top: 1rem;
+    }
+
+    span {
+        font-size: 1.3rem;
+    }
+    
+    .checkbox {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .delete-btn {
+        font-size: 0.9rem;
+    }
+    .delete-btn:hover {
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media screen and (max-width: 376px) {
+    
+    .container_lista {
+        width: -webkit-fill-available;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+    }
+    
+    .entradaItem {
+        font-size: 0.7rem;
+    }
+    
+    .botao {
+        font-size: 0.7rem;
+        width: 25%;
+    }
+    .botao:hover{
+        font-size: 0.9rem;
+        width: 28%;
+    }
+    
+    .listaCompra {
+        margin-top: 1rem;
+    }
+
+    span {
+        font-size: 0.7rem;
+    }
+    
+    .checkbox {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .delete-btn {
+        font-size: 0.7rem;
+    }
+    .delete-btn:hover {
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width: 321px) {
+    
+    .container_lista {
+        margin-top: 0rem;
+        padding: 0.5rem;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+    }
+    
+    .entradaItem {
+        font-size: 0.7rem;
+    }
+    
+    .botao {
+        font-size: 0.7rem;
+        width: 30%;
+        margin-left: 0rem;
+    }
+    .botao:hover{
+        font-size: 0.9rem;
+        width: 35%;
+    }
+    
+    .listaCompra {
+        margin-top: 1rem;
+    }
+
+    span {
+        font-size: 0.7rem;
+    }
+    
+    .checkbox {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .delete-btn {
+        font-size: 0.7rem;
+    }
+    .delete-btn:hover {
+        font-size: 0.9rem;
+    }
+    
+}

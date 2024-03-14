@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./calculadora.css">
+    <!--  JavaScript -->
+    <script src="./calculadora.js"></script>
+</head>
+<body>
+    <section class="toda_pagina">
+        <div class="container_titulo">
+            <h1 class="titulo">
+                Calculadora Simples
+            </h1>
+        </div>
+
+        <section class="calculadora">
+            <div class="container_display">
+                <input type="text" class="display" id="display" placeholder="0.00">
+            </div>
+    
+            <div class="container_cal">
+                
+                <div class="container_numeros">
+                    <div class="numeros">
+                        <button type="button" class="botao" onclick="botoes('1')">1</button>
+                        <button type="button" class="botao" onclick="botoes('2')">2</button>
+                        <button type="button" class="botao" onclick="botoes('3')">3</button>
+                        <button type="button" class="botao" onclick="botoes('+')">+</button>
+                    </div>
+        
+                    <div class="numeros">
+                        <button type="button" class="botao" onclick="botoes('4')">4</button>
+                        <button type="button" class="botao" onclick="botoes('5')">5</button>
+                        <button type="button" class="botao" onclick="botoes('6')">6</button>
+                        <button type="button" class="botao" onclick="botoes('-')">-</button>
+                    </div>
+                    
+                    <div class="numeros">
+                        <button type="button" class="botao" onclick="botoes('7')">7</button>
+                        <button type="button" class="botao" onclick="botoes('8')">8</button>
+                        <button type="button" class="botao" onclick="botoes('9')">9</button>
+                        <button type="button" class="botao" onclick="botoes('*')">*</button>
+                    </div>
+        
+                    <div class="numeros">
+                        <button type="button" class="botao" onclick="botoes('0')">0</button>
+                        <button type="button" class="botao" onclick="limparDisplay()">C</button>
+                        <button type="button" class="botao" onclick="calcularResultado()">=</button>
+                        <button type="button" class="botao" onclick="botoes('/')">/</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar Sorteio</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="./jogoSorteio.css">
+
+    <!-- JavaScript -->
+    <script src="./jogoSorteio.js"></script>
+
+    <!-- Inclua o arquivo CSS do SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <!-- Inclua o arquivo JavaScript do SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <section class="container_todo">
+
+        <header class="container_titulo">
+            <h1 class="titulo">
+                Gerador de Sorteio 
+            </h1>
+        </header>
+
+        <!-- Descrição -->
+        <div class="container_numero_sorteio">
+            <h2 class="texto_numero">
+                Digite quantos números você quer, de 0 ao .?. valor que você deseja! <br>
+                <br>
+                Exemplo, se quiser realizar um sorteio de 0 a 10, digite 10. <br>
+            </h2>
+        </div>
+
+        <!-- Pegar número para realizar o sorteio -->
+        <div class="container_pegar_numero" id="divPegarNumero">
+            <label 
+                for="pegarNumero"
+                class="texto_pegar-numero"
+            >
+                Digite os números aqui:
+            </label>
+            <input type="text" id="pegarNumero" class="pegarNumero">
+            <button type="button" class="btnAdicionarNumeros" onclick="adicionarNumeros()">Adicionar</button>
+        </div>
+
+        <!--Exibir números para sortear -->
+        <div class="container_exibir_numeros_para_sortear">
+            <p id="exibirNumerosSorteio" class="exibirNumerosSorteio"></p>
+        </div>
+
+        <div class="container_erro">
+            <p id="avisoErro"></p>
+        </div>
+    
+    
+        <!-- Realizar sorteio e exibir o resultado -->
+        <section class="container_realizar_sorteio">
+
+            <div class="container_escolha">
+                <label for="numeroUsuario" class="texto-orientacao">Digite o seu número da sorte:</label>
+                <input type="text" id="numeroUsuario" title="numero escolhido pelo usuário." class="input_numero_usuario">
+                <button type="button" class="botao" onclick="sorteio()" title="botão para ativar o sorteio."> Sortear </button>
+            </div>
+
+            <div class="container_erro">
+                <p id="avisoErro2"></p>
+            </div>
+        
+            <!-- Exibir resultado do sorteio -->
+            <div class="container_resultado">
+                <p id="resultadoSorteio"></p>
+            </div>
+    
+            <!-- Botão para reiniciar o jogo -->
+            <div class="container_reniciar_jogo" id="reiniciar_jogo">
+                <p id="mensagem_reniciar">Reiniciar o Jogo </p>
+            </div>
+        </section>
+
+    </section>
+
+</body>
+</html>

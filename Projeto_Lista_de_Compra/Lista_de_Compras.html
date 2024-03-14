@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Lista_de_Compras.css">
+    <!-- JavaScript -->
+    <script src="./Lista_de_Compras.js"></script>
+</head>
+<body>
+    
+    <div class="container_lista">
+        <div class="container_titulo">
+
+            <h1 class="titulo">
+                Lista de Compras
+            </h1>
+
+            <div class="container_entrada">
+
+                <input type="text" id="itemInput" placeholder="Adicionar item" class="entradaItem">
+                <button type="button" onclick="adicionarItem()" class="botao"> Adicionar </button>
+
+            </div>
+
+            <div class="container_exibir_lista">
+
+                <ul id="listaCompras" class="listaCompra"></ul>
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

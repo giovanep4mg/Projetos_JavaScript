@@ -1,0 +1,690 @@
+@media screen and (max-width: 2881px) {
+    html {
+        padding: 0rem;
+        margin: 0rem;
+        width: -webkit-fill-available;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        height: -webkit-fill-available;
+    }
+
+    body {
+        box-sizing: border-box;
+        background-color: #72d431a2;
+        display: flex;
+        width: -webkit-fill-available;
+        align-items: center;
+    }
+
+    .container_tudo {
+        border: 1px solid black;
+        position: relative;
+        top: 5rem;
+        left: 25%;
+        width: 50%;
+        background-color: #faebd7c7;
+    }
+
+    .containerr_titulo {
+        margin: 0em;
+        padding: 0em;
+        margin-top: 0rem;
+    }
+
+    .titulo {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 8em;
+        text-align: center;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .formulario {
+        margin: 0em;
+        padding: 1.5em;
+        width: -webkit-fill-available;
+        margin-top: 0rem;
+    }
+    .avisoNome {
+        font-size: 4rem;
+        color: red;
+        padding: 0.2em;
+        margin: 0em;
+    }
+
+    .avisoSenha {
+        font-size: 4rem;
+        color: red;
+        padding: 0.2em;
+        margin: 0em;
+    }
+
+    .container_nome_login {
+        padding-bottom: 2em;
+    }
+    .nomeUsuario {
+        font-size: 5em;
+    }
+    .recebeNome {
+        font-size: 5em;
+        border: 3px solid black;
+        width: -webkit-fill-available;
+    }
+
+    .container_senha {
+        padding-bottom: 2em;
+    }
+
+    .texto_senha_Usuario {
+        font-size: 5em;
+    }
+
+    .senhaEntrada {
+        font-size: 5em;
+        border: 3px solid black;
+        width: -webkit-fill-available;
+    }
+
+    .botao {
+        font-size: 5em;
+        background-color: #3498db;
+        color: #fff;
+        border: 1px solid black;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 25%;
+        margin-left: 35%;
+        border-radius: 10%;
+    }
+
+    .botao:hover {
+        font-size: 5.3em;
+        background-color: #fff;
+        color: #3498db;
+    }
+
+    .container_criar-conta {
+        margin: 0rem;
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        justify-content: center;
+        padding: 0rem;
+    }
+
+    .Texto_criar_conta {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .btn_criar_conta {
+        font-size: 3.5rem;
+        padding: 1.3rem;
+        margin: 0rem;
+        border-radius: 50% 50% 50% 50%;
+        border: 5px solid #0f0f0f;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 25%;
+        text-align: center;
+        margin-left: 6%;
+        background-color: #3498db;
+        color: #fff;
+    }
+    .btn_criar_conta:hover {
+        font-size: 3.8rem;
+        background-color: #fff;
+        border: 4px solid rgb(241 4 70);
+        width: 30%;
+        color: #3498db;
+    }
+}
+
+@media screen and (max-width: 2561px) {
+    
+    .container_tudo {
+        top: 2rem;
+        left: 15%;
+        width: 70%;
+    }
+
+    .titulo {
+        font-size: 6em;
+    }
+
+    .formulario {
+        padding: 1em;
+        margin-top: 0.5rem;
+    }
+
+    .nomeUsuario {
+        font-size: 3rem;
+    }
+
+    .recebeNome {
+        font-size: 3rem;
+        border: 2px solid black;
+    }
+
+    .avisoNome, .avisoSenha {
+        font-size: 2.8rem;
+    }
+
+    .texto_senha_Usuario {
+        font-size: 3rem;
+    }
+
+    .senhaEntrada {
+        font-size: 3rem;
+        border: 2px solid black;
+    }
+
+
+    .botao {
+        font-size: 3rem;
+        width: 25%;
+        margin-left: 35%;
+    }
+    .botao:hover {
+        font-size: 4.3em;
+    }
+
+    .container_criar-conta {
+        margin-top: 4rem;
+    }
+
+    .Texto_criar_conta {
+        font-size: 3rem;
+    }
+
+    .btn_criar_conta {
+        font-size: 3rem;
+        width: 25%;
+    }
+    .btn_criar_conta:hover {
+        font-size: 3.3rem;
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 2001px) {
+    
+    .container_tudo {
+        top: 2rem;
+        left: 15%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1501px) {
+    
+    .container_tudo {
+        top: 1rem;
+        left: 5%;
+        width: 90%;
+    }
+
+    .container_criar-conta {
+        margin-top: 0rem;
+    }
+
+    .Texto_criar_conta {
+        font-size: 2.5rem;
+    }
+
+    .btn_criar_conta {
+        font-size: 2.5rem;
+        width: 25%;
+        padding: 0.5rem;
+    }
+    .btn_criar_conta:hover {
+        font-size: 2.8rem;
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+
+    .container_tudo {
+        top: 0rem;
+        left: 5%;
+        width: 90%;
+    }
+
+    .titulo {
+        font-size: 4rem;
+    }
+
+    .formulario {
+        padding: 1em;
+        margin-top: 0.5rem;
+    }
+
+    .nomeUsuario {
+        font-size: 3rem;
+    }
+
+    .recebeNome {
+        font-size: 3rem;
+        border: 2px solid black;
+    }
+
+    .avisoNome, .avisoSenha {
+        font-size: 2.8rem;
+    }
+
+    .container_nome_login, .container_senha {
+        padding-bottom: 1em;
+    }
+
+    .texto_senha_Usuario {
+        font-size: 3rem;
+    }
+
+    .senhaEntrada {
+        font-size: 3rem;
+        border: 2px solid black;
+    }
+
+    .botao {
+        font-size: 3rem;
+        width: 25%;
+        margin-left: 35%;
+        margin-top: -2rem;
+    }
+    .botao:hover {
+        font-size: 3.3rem;
+        width: 30%;
+    }
+
+    .container_criar-conta {
+        margin-top: 1rem;
+    }
+
+    .Texto_criar_conta {
+        font-size: 2.5rem;
+    }
+
+    .btn_criar_conta {
+        font-size: 2.5rem;
+        width: 25%;
+        padding: 0.8rem;
+        margin-left: 4rem;
+    }
+    .btn_criar_conta:hover {
+        font-size: 2.8rem;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    
+    .container_tudo {
+        top: 0rem;
+        left: 5%;
+        width: 90%;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .formulario {
+        padding: 1em;
+        margin-top: 0.5rem;
+    }
+
+    .nomeUsuario {
+        font-size: 2rem;
+    }
+
+    .recebeNome {
+        font-size: 2rem;
+        border: 2px solid black;
+    }
+
+    .avisoNome, .avisoSenha {
+        font-size: 1.8rem;
+    }
+
+    .container_nome_login, .container_senha {
+        padding-bottom: 0em;
+    }
+
+    .texto_senha_Usuario {
+        font-size: 2rem;
+    }
+
+    .senhaEntrada {
+        font-size: 2rem;
+        border: 2px solid black;
+    }
+
+    .botao {
+        font-size: 2rem;
+        width: 25%;
+        margin-left: 35%;
+        margin-top: -2rem;
+    }
+    .botao:hover {
+        font-size: 2.3rem;
+        width: 30%;
+    }
+
+    .container_criar-conta {
+        margin-top: 0.5rem;
+    }
+
+    .Texto_criar_conta {
+        font-size: 1.5rem;
+    }
+
+    .btn_criar_conta {
+        font-size: 1.5rem;
+        width: 25%;
+        padding: 0.5rem;
+    }
+    .btn_criar_conta:hover {
+        font-size: 1.8rem;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    .container_tudo {
+        top: 0rem;
+        left: 0%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .container_tudo {
+        top: 0rem;
+        left: 0%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    
+    .container_tudo {
+        top: 0rem;
+        left: 0%;
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .formulario {
+        padding: 0.5em;
+        margin-top: 0.5rem;
+    }
+
+    .nomeUsuario {
+        font-size: 1.5rem;
+    }
+
+    .recebeNome {
+        font-size: 1.5rem;
+        border: 2px solid black;
+    }
+
+    .avisoNome, .avisoSenha {
+        font-size: 1rem;
+    }
+
+    .container_nome_login, .container_senha {
+        padding-bottom: 0em;
+        margin-top: -1rem;
+    }
+
+    .texto_senha_Usuario {
+        font-size: 1.5rem;
+    }
+
+    .senhaEntrada {
+        font-size: 1.5rem;
+        border: 2px solid black;
+    }
+
+    .botao {
+        font-size: 1.5rem;
+        width: 25%;
+        margin-left: 35%;
+        margin-top: -2rem;
+    }
+    .botao:hover {
+        font-size: 1.8rem;
+        width: 30%;
+    }
+
+    .container_criar-conta {
+        margin-top: 0.5rem;
+    }
+
+    .Texto_criar_conta {
+        font-size: 1.3rem;
+    }
+
+    .btn_criar_conta {
+        font-size: 1.3rem;
+        width: 25%;
+        padding: 0.2rem;
+    }
+    .btn_criar_conta:hover {
+        font-size: 1.5rem;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .formulario {
+        padding: 0.5em;
+        margin-top: 0.5rem;
+    }
+
+    .nomeUsuario {
+        font-size: 1.1rem;
+    }
+
+    .recebeNome {
+        font-size: 1.1rem;
+        border: 2px solid black;
+    }
+
+    .avisoNome, .avisoSenha {
+        font-size: 1rem;
+    }
+
+    .container_nome_login, .container_senha {
+        margin-top: 0rem;
+    }
+
+    .texto_senha_Usuario {
+        font-size: 1.1rem;
+    }
+
+    .senhaEntrada {
+        font-size: 1.1rem;
+        border: 2px solid black;
+    }
+
+    .botao {
+        font-size: 1.1rem;
+        width: 25%;
+        margin-left: 35%;
+        margin-top: -2rem;
+    }
+    .botao:hover {
+        font-size: 1.4rem;
+        width: 30%;
+    }
+
+    .container_criar-conta {
+        margin-top: 0.5rem;
+    }
+
+    .Texto_criar_conta {
+        font-size: 1rem;
+    }
+
+    .btn_criar_conta {
+        font-size: 1rem;
+        width: 31%;
+        padding: 0.2rem;
+        margin-left: 0.5rem;
+    }
+    .btn_criar_conta:hover {
+        font-size: 1.3rem;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .formulario {
+        padding: 0.5em;
+        margin-top: 0.5rem;
+    }
+
+    .nomeUsuario {
+        font-size: 1.1rem;
+    }
+
+    .recebeNome {
+        font-size: 1.1rem;
+        border: 2px solid black;
+    }
+
+    .avisoNome, .avisoSenha {
+        font-size: 0.9rem;
+    }
+
+    .container_nome_login, .container_senha {
+        margin-top: 0rem;
+    }
+
+    .texto_senha_Usuario {
+        font-size: 1.1rem;
+    }
+
+    .senhaEntrada {
+        font-size: 1.1rem;
+        border: 2px solid black;
+    }
+
+    .botao {
+        font-size: 1.1rem;
+        width: 25%;
+        margin-left: 35%;
+        margin-top: -2rem;
+    }
+    .botao:hover {
+        font-size: 1.4rem;
+        width: 30%;
+    }
+
+    .container_criar-conta {
+        margin-top: 0.5rem;
+        flex-direction: column;
+    }
+
+    .Texto_criar_conta {
+        font-size: 0.9rem;
+    }
+
+    .btn_criar_conta {
+        font-size: 0.9rem;
+        width: 31%;
+        padding: 0.2rem;
+        margin-left: 0.5rem;
+    }
+    .btn_criar_conta:hover {
+        font-size: 1.2rem;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .formulario {
+        padding: 0.5em;
+        margin-top: 0.5rem;
+    }
+
+    .nomeUsuario {
+        font-size: 1.1rem;
+    }
+
+    .recebeNome {
+        font-size: 1.1rem;
+        border: 2px solid black;
+    }
+
+    .avisoNome, .avisoSenha {
+        font-size: 0.9rem;
+    }
+
+    .container_nome_login, .container_senha {
+        margin-top: 0rem;
+    }
+
+    .texto_senha_Usuario {
+        font-size: 1.1rem;
+    }
+
+    .senhaEntrada {
+        font-size: 1.1rem;
+        border: 2px solid black;
+    }
+
+    .botao {
+        font-size: 1.1rem;
+        width: 25%;
+        margin-left: 35%;
+        margin-top: -2rem;
+    }
+    .botao:hover {
+        font-size: 1.4rem;
+        width: 30%;
+    }
+
+    .container_criar-conta {
+        margin-top: 0.5rem;
+        flex-direction: column;
+    }
+
+    .Texto_criar_conta {
+        font-size: 0.9rem;
+    }
+
+    .btn_criar_conta {
+        font-size: 0.9rem;
+        width: 31%;
+        padding: 0.2rem;
+        margin-left: 0.5rem;
+    }
+    .btn_criar_conta:hover {
+        font-size: 1.2rem;
+        width: 35%;
+    }
+}

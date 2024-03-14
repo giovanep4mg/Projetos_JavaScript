@@ -1,0 +1,1910 @@
+@media screen and (max-width: 2561px) {
+    html {
+        margin: 0em;
+        padding: 0em;
+        width: -webkit-fill-available;
+        padding-bottom: 2em;
+
+        background-color: rgba(137, 43, 226, 0.486);
+    }
+    
+    body {
+        box-sizing: border-box;
+        background-color: #f2f9f7;
+        width: 80%;
+        top: 5%;
+        position: absolute;
+        left: 10%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        margin: 0em;
+        padding: 2em;
+    }
+
+    /* Titulo */
+    .container_titulo{
+        padding: 0em;
+        margin: 0em;
+
+        border: 1px solid red;
+    }
+
+    .titulo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10rem;
+        text-align: center;
+        padding: 0em;
+        margin: 0em;
+    }
+
+    /* descricao */
+    .container_numero_sorteio {
+        padding: 0em;
+        margin: 0em;
+        border: 1px solid yellow;
+    }
+    .texto_numero {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        display: flex;
+        border: 4px solid blue;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    .texto_pegar-numero {
+        font-size: 4rem;
+        font-family: monospace;
+        padding: 0.5rem;
+        margin: 0rem;
+    }
+    .pegarNumero {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 4rem;
+        width: 5%;
+        text-align: center;
+        margin-left: 1rem;
+        border: 5px solid black;
+    }
+    .btnAdicionarNumeros {
+        margin-left: 2em;
+        font-size: 5rem;
+        width: 30%;
+        border: 4px solid black;
+        text-align: center;
+        border-radius: 50% 50% 50% 50%;
+        background: turquoise;
+        padding: 0.3em;
+        cursor: pointer;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 5.3rem;
+        background: rgba(121, 222, 5, 0.811);
+    }
+
+    .container_exibir_numeros_para_sortear {
+        width: -webkit-fill-available;
+        font-size: 3rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .exibirNumerosSorteio {
+        border: 1px solid black;
+        font-size: 5rem;
+        padding: 0.5rem;
+        margin: 0rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    .container_realizar_sorteio {
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    /* Escolher número */
+    .container_escolha {
+        padding: 0.5em;
+        display: flex;
+        align-items: center;
+        border: 5px solid #de3f3f;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    /* parte que exibir mensagem de erro */
+    .container_erro {
+        padding: 0rem;
+        margin: 0rem;
+        margin-top: 2rem;
+    }
+    #avisoErro, #avisoErro2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 5rem;
+        color: red;
+        padding: 0rem;
+        margin: 0rem;
+        text-align: center;
+    }
+
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 2rem; 
+    }
+
+    .texto-orientacao {
+        font-family: fantasy;
+        font-size: 4rem;
+        font-style: italic;
+    }
+    .input_numero_usuario {
+        width: 5%;
+        padding: 0.5em;
+        border: 3px solid black;
+        margin-left: 1em;
+        font-size: 4em;
+        font-family: fantasy;
+        text-align: center;
+    }
+    .botao {
+        width: 30%;
+        padding: 0.4em;
+        margin: 0em;
+        background: #dd140eb3;
+        margin-left: 1em;
+        font-size: 5em;
+        border-radius: 80% 80% 80% 80%;
+        cursor: pointer;
+    }
+    .botao:hover {
+        font-size: 5.3rem;
+        background: #58e7c092;
+    }
+    
+    /* parte do resultado */
+    .container_resultado {
+        width: -webkit-fill-available;
+        padding: 0.5em;
+        margin-top: 0em;
+        font-family: cursive;
+        font-size: 5em;
+    }
+    .numeroSorteado {
+        width: -webkit-fill-available;
+    }
+    
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-family: cursive;
+        font-size: 4em;
+        text-align: center;
+        background-color: seagreen;
+        width: 35%;
+        margin-left: 30%;
+        border-radius: 50% 50% 50% 50%;
+        padding: 0.1em;
+        border: 3px solid blue;
+        margin-top: -4rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1601px) {
+
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.6rem; 
+    }
+    
+    body {
+        width: 70%;
+        top: 1%;
+        left: 15%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 1em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 5rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 2.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        border: 1px solid blue;
+        padding: 0.5rem;
+        margin-bottom: 5rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2.5rem;
+        padding: 0rem;
+    }
+    .pegarNumero {
+        font-size: 2.5rem;
+        width: 8%;
+        text-align: center;
+        margin-left: 2rem;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros {
+        margin-left: 1em;
+        font-size: 2.5rem;
+        width: 23%;
+        border: 3px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.8rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2.5rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 3px solid #de3f3f;
+        margin-top: 4rem;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2.5rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2.4rem;
+    }
+    .input_numero_usuario {
+        width: 5%;
+        padding: 0em;
+        border: 2px solid black;
+        margin-left: 0.5em;
+        font-size: 2.5em;
+        height: 5rem;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2.5em;
+    }
+    .botao:hover {
+        font-size: 2.3rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2.5em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 2.4em;
+        width: 35%;
+        margin-left: 30%;
+        border-radius: 50% 50% 50% 50%;
+        border: 2px solid blue;
+        margin-top: 0rem;
+        padding: 0rem;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (max-width: 1591px) {
+
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.6rem; 
+    }
+    
+    body {
+        width: 90%;
+        top: -1%;
+        left: 5%;
+    }
+    
+}   
+
+@media screen and (max-width: 1491px) {
+
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.6rem; 
+    }
+    
+    body {
+        width: 90%;
+        top: -1%;
+        left: 5%;
+    }
+
+}   
+
+@media screen and (max-width: 1441px) {
+
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.6rem; 
+    }
+    
+    body {
+        width: 70%;
+        top: 1%;
+        left: 15%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 1em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 5rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 2.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        border: 1px solid blue;
+        padding: 0.5rem;
+        margin-bottom: 5rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2.5rem;
+        padding: 0rem;
+    }
+    .pegarNumero {
+        font-size: 2.5rem;
+        width: 8%;
+        text-align: center;
+        margin-left: 2rem;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros {
+        margin-left: 1em;
+        font-size: 2.5rem;
+        width: 23%;
+        border: 3px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.8rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2.5rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 3px solid #de3f3f;
+        margin-top: 4rem;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2.5rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2.4rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        padding: 0em;
+        border: 2px solid black;
+        margin-left: 0.5em;
+        font-size: 2.5em;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2.5em;
+    }
+    .botao:hover {
+        font-size: 2.3rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2.5em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 2.4em;
+        width: 35%;
+        margin-left: 30%;
+        border-radius: 50% 50% 50% 50%;
+        border: 2px solid blue;
+        margin-top: 0rem;
+        padding: 0rem;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (max-width: 1320px) {
+
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.6rem; 
+    }
+    
+    body {
+        width: 90%;
+        top: -1%;
+        left: 5%;
+    }
+    
+}  
+
+@media screen and (max-width: 1301px) {
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.3rem; 
+    }
+    
+    body {
+        width: 90%;
+        top: 1%;
+        left: 5%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 1em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 5rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 2.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        border: 1px solid blue;
+        padding: 0.5rem;
+        margin-bottom: 5rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2.5rem;
+        padding: 0rem;
+    }
+    .pegarNumero {
+        font-size: 2.5rem;
+        width: 8%;
+        text-align: center;
+        margin-left: 2rem;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros {
+        margin-left: 1.5em;
+        font-size: 2.3rem;
+        width: 25%;
+        border: 3px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.5rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2.5rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 3px solid #de3f3f;
+        margin-top: 4rem;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2.5rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2.4rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        padding: 0em;
+        border: 2px solid black;
+        margin-left: 0.5em;
+        font-size: 2.5em;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2.5em;
+    }
+    .botao:hover {
+        font-size: 2.3rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2.5em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 2.4em;
+        width: 35%;
+        margin-left: 30%;
+        border-radius: 50% 50% 50% 50%;
+        border: 2px solid blue;
+        margin-top: 0rem;
+        padding: 0rem;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (max-width: 1231px) {
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.3rem; 
+    }
+    
+    body {
+        width: 70%;
+        top: 1%;
+        left: 15%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 1em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 5rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 2.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        border: 1px solid blue;
+        padding: 0.5rem;
+        margin-bottom: 5rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2.5rem;
+        padding: 0rem;
+    }
+    .pegarNumero {
+        font-size: 2.5rem;
+        width: 8%;
+        text-align: center;
+        margin-left: 2rem;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros {
+        margin-left: 1.5em;
+        font-size: 2.3rem;
+        width: 25%;
+        border: 3px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.5rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2.5rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 3px solid #de3f3f;
+        margin-top: 4rem;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2.5rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2.4rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        padding: 0em;
+        border: 2px solid black;
+        margin-left: 0.5em;
+        font-size: 2.5em;
+        height: 5rem;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2.5em;
+    }
+    .botao:hover {
+        font-size: 2.3rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2.5em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 2.4em;
+        width: 35%;
+        margin-left: 30%;
+        border-radius: 50% 50% 50% 50%;
+        border: 2px solid blue;
+        margin-top: 0rem;
+        padding: 0rem;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (max-width: 1159px) {
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.2rem; 
+    }
+    
+    body {
+        width: 70%;
+        top: 1%;
+        left: 15%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 1em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 5rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 2.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        border: 1px solid blue;
+        padding: 0.5rem;
+        margin-bottom: 5rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2.5rem;
+        padding: 0rem;
+    }
+    .pegarNumero {
+        font-size: 2.5rem;
+        width: 8%;
+        text-align: center;
+        margin-left: 2rem;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros {
+        margin-left: 1em;
+        font-size: 2.5rem;
+        width: 23%;
+        border: 3px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.8rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2.5rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 3px solid #de3f3f;
+        margin-top: 4rem;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2.5rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2.4rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        padding: 0em;
+        border: 2px solid black;
+        margin-left: 0.5em;
+        font-size: 2.5em;
+        height: 5rem;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2.5em;
+    }
+    .botao:hover {
+        font-size: 2.3rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2.5em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 2.4em;
+        width: 35%;
+        margin-left: 30%;
+        border-radius: 50% 50% 50% 50%;
+        border: 2px solid blue;
+        margin-top: 0rem;
+        padding: 0rem;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (max-width: 1136px) {
+
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.6rem; 
+    }
+    
+    body {
+        width: 90%;
+        top: -1%;
+        left: 5%;
+    }
+    
+}  
+
+@media screen and (max-width: 1131px) {
+
+    .custom-swal-font {
+        font-size: 1.1rem; 
+    }
+    
+    body {
+        width: 90%;
+        top: 1%;
+        left: 5%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.6em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 3rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 1.8rem;
+        padding: 0.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2.5rem;
+        padding: 0rem;
+    }
+
+    .container_pegar_numero {
+        flex-wrap: wrap;
+    }
+
+    .pegarNumero {
+        font-size: 2rem;
+        width: 8%;
+        margin-left: 0rem;
+    }
+
+    .btnAdicionarNumeros {
+        margin-left: 1em;
+        font-size: 2rem;
+        width: 35%;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.4rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        margin-left: 0.5em;
+        font-size: 2em;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2em;
+    }
+    .botao:hover {
+        font-size: 1.7rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1.7em;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1116px) {
+
+    .custom-swal-font {
+        font-size: 1.1rem; 
+    }
+    
+    body {
+        width: 70%;
+        top: 1%;
+        left: 15%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.6em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 3rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 1.8rem;
+        padding: 0.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2.5rem;
+        padding: 0rem;
+    }
+
+    .container_pegar_numero {
+        flex-wrap: wrap;
+    }
+
+    .pegarNumero {
+        font-size: 2rem;
+        width: 8%;
+        margin-left: 0rem;
+    }
+
+    .btnAdicionarNumeros {
+        margin-left: 1em;
+        font-size: 2rem;
+        width: 35%;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.4rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        margin-left: 0.5em;
+        font-size: 2em;
+        height: 3rem;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2em;
+    }
+    .botao:hover {
+        font-size: 1.7rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1.7em;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1076px) {
+
+    .custom-swal-font {
+        font-size: 1.2rem; 
+    }
+    
+    body {
+        width: 70%;
+        top: 1%;
+        left: 15%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.6em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 3rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 1.8rem;
+        padding: 0.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2.5rem;
+        padding: 0rem;
+    }
+
+    .container_pegar_numero {
+        flex-wrap: wrap;
+    }
+
+    .pegarNumero {
+        font-size: 2rem;
+        width: 8%;
+        margin-left: 0rem;
+    }
+
+    .btnAdicionarNumeros {
+        margin-left: 1em;
+        font-size: 2rem;
+        width: 35%;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.4rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        margin-left: 0.5em;
+        font-size: 2em;
+        height: 3rem;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2em;
+    }
+    .botao:hover {
+        font-size: 1.7rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1.7em;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1025px) {
+
+    .custom-swal-font {
+        font-size: 1.2rem; 
+    }
+    
+    body {
+        width: 70%;
+        top: 1%;
+        left: 15%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.6em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 3rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 1.8rem;
+        padding: 0.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2rem;
+        padding: 0rem;
+    }
+
+    .container_pegar_numero {
+        flex-wrap: wrap;
+    }
+
+    .pegarNumero {
+        font-size: 2rem;
+        width: 8%;
+        margin-left: 0rem;
+    }
+
+    .btnAdicionarNumeros {
+        margin-left: 1em;
+        font-size: 2rem;
+        width: 35%;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.4rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        margin-left: 0.5em;
+        font-size: 2em;
+        height: 3rem;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2em;
+    }
+    .botao:hover {
+        font-size: 1.7rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1.7em;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1001px) {
+
+    /* Estilo para Janela popup */
+    .custom-swal-font {
+        font-size: 1.6rem; 
+    }
+    
+    body {
+        width: 90%;
+        top: -1%;
+        left: 5%;
+    }
+    
+}   
+
+@media screen and (max-width: 885px) {
+    .custom-swal-font {
+        font-size: 0.9rem; 
+    }
+    
+    body {
+        width: 98%;
+        top: 1%;
+        left: 0%;
+    }
+
+}
+
+@media screen and (max-width: 835px) {
+    .custom-swal-font {
+        font-size: 0.9rem; 
+    }
+    
+    body {
+        width: 98%;
+        top: 1%;
+        left: 0%;
+    }
+
+}
+
+@media screen and (max-width: 821px) {
+    .custom-swal-font {
+        font-size: 0.9rem; 
+    }
+    
+    body {
+        width: 98%;
+        top: 1%;
+        left: 0%;
+    }
+
+}
+
+@media screen and (max-width: 801px) {
+    .custom-swal-font {
+        font-size: 0.9rem; 
+    }
+    
+    body {
+        width: 98%;
+        top: 1%;
+        left: 0%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.6em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 3rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 1.8rem;
+        padding: 0.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 2rem;
+        padding: 0rem;
+    }
+
+    .container_pegar_numero {
+        flex-wrap: wrap;
+    }
+
+    .pegarNumero {
+        font-size: 2rem;
+        width: 8%;
+        margin-left: 0rem;
+    }
+
+    .btnAdicionarNumeros {
+        margin-left: 1em;
+        font-size: 2rem;
+        width: 35%;
+        border: 2px solid black;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2.4rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 2rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 2rem;
+    }
+
+    .texto-orientacao {
+        font-size: 2rem;
+    }
+    .input_numero_usuario {
+        width: 10%;
+        margin-left: 0.5em;
+        font-size: 2em;
+        height: 3rem;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 1em;
+        font-size: 2em;
+    }
+    .botao:hover {
+        font-size: 1.7rem;
+        background: #58e7c092;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        margin-top: 0em;
+        font-size: 2em;
+        margin-top: -4rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1.3em;
+        width: 35%;
+        margin-left: 30%;
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 769px) {
+    .custom-swal-font {
+        font-size: 0.7rem; 
+    }
+    
+    body {
+        width: 96%;
+        top: 1%;
+        left: 1%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.6em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 2rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 1.5rem;
+    }
+
+    .pegarNumero {
+        font-size: 1.5rem;
+        width: 7%;
+        height: 3rem;
+    }
+
+    .btnAdicionarNumeros {
+        margin-left: 3em;
+        font-size: 1.5rem;
+        width: 30%;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 2rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 1.6rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 1.5rem;
+    }
+
+    .texto-orientacao {
+        font-size: 1.5rem;
+    }
+    .input_numero_usuario {
+        width: 8%;
+        margin-left: 0.5em;
+        font-size: 1.5em;
+        height: 3rem;
+    }
+    .botao {
+        width: 30%;
+        margin-left: 3em;
+        font-size: 1.5em;
+    }
+    .botao:hover {
+        font-size: 1.9rem;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        font-size: 1.5em;
+        margin-top: -2rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1.4em;
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 426px) {
+    .custom-swal-font {
+        font-size: 0.8rem; 
+    }
+    
+    body {
+        width: 96%;
+        top: -1%;
+        left: 0%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.4em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 2rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 1.3rem;
+    }
+
+    .pegarNumero {
+        font-size: 1.3rem;
+        width: 10%;
+        height: 2rem;
+    }
+
+    .btnAdicionarNumeros {
+        font-size: 1.3rem;
+        width: 40%;
+        margin-left: 0rem;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 1.7rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 1.2rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 1.2rem;
+    }
+
+    .texto-orientacao {
+        font-size: 1.2rem;
+    }
+    .input_numero_usuario {
+        width: 12%;
+        margin-left: 0.5em;
+        font-size: 1.3em;
+        height: 2rem;
+    }
+    .botao {
+        width: 35%;
+        margin-left: 0em;
+        font-size: 1.3em;
+    }
+    .botao:hover {
+        font-size: 1.9rem;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        font-size: 1.3em;
+        margin-top: -3rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1.1em;
+        width: 40%;
+        margin-left: 7rem;
+        margin-top: 0rem;
+    }
+
+
+}
+
+@media screen and (max-width: 376px) {
+    .custom-swal-font {
+        font-size: 0.7rem; 
+    }
+    
+    body {
+        width: 96%;
+        top: -1%;
+        left: 0%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.4em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 1.5rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 0.8rem;
+        padding: 0.1rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 1rem;
+    }
+
+    .container_erro {
+        margin-top: -3rem;
+    }
+
+    .pegarNumero {
+        font-size: 1rem;
+        width: 10%;
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .btnAdicionarNumeros {
+        font-size: 1rem;
+        width: 40%;
+        margin-left: 0rem;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 1.3rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 1rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 0.8rem;
+    }
+
+    .texto-orientacao {
+        font-size: 1rem;
+    }
+    .input_numero_usuario {
+        width: 15%;
+        margin-left: 0.5em;
+        font-size: 1em;
+        height: 2rem;
+    }
+    .botao {
+        width: 40%;
+        margin-left: 0em;
+        font-size: 1em;
+    }
+    .botao:hover {
+        font-size: 1.3rem;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        font-size: 1.3em;
+        margin-top: 2rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1em;
+        width: 50%;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 321px) {
+    .custom-swal-font {
+        font-size: 0.5rem; 
+    }
+    
+    body {
+        width: 96%;
+        top: -1%;
+        left: 0%;
+    }
+    
+    /* toda página */
+    .container_todo {
+        padding: 0.4em;
+    }
+
+    /* Titulo */
+    .titulo{
+        font-size: 1.5rem;
+    }
+
+    /* descricao */
+     .texto_numero {
+        font-size: 0.8rem;
+        padding: 0.1rem;
+    }
+
+
+    /* Pegar números para realizar o sorteio */
+    .container_pegar_numero {
+        margin-bottom: 2rem;
+    }
+    .texto_pegar-numero {
+        font-size: 1rem;
+    }
+
+    .container_erro {
+        margin-top: -3rem;
+    }
+
+    .pegarNumero {
+        font-size: 1rem;
+        width: 10%;
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .btnAdicionarNumeros {
+        font-size: 1rem;
+        width: 40%;
+        margin-left: 0rem;
+    }
+    .btnAdicionarNumeros:hover {
+        font-size: 1.3rem;
+    }
+
+    .exibirNumerosSorteio {
+        font-size: 1rem;
+    }
+
+    /*  Parte para escolher o número e resultado */
+    
+    /* Escolher número */
+    .container_escolha {
+        border: 2px solid #de3f3f;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+    }
+
+    /* parte que exibir mensagem de erro */
+    
+    #avisoErro, #avisoErro2 {
+        font-size: 0.8rem;
+    }
+
+    .texto-orientacao {
+        font-size: 1rem;
+    }
+    .input_numero_usuario {
+        width: 15%;
+        margin-left: 0.5em;
+        font-size: 1em;
+        height: 2rem;
+    }
+    .botao {
+        width: 40%;
+        margin-left: 0em;
+        font-size: 1em;
+    }
+    .botao:hover {
+        font-size: 1.3rem;
+    }
+
+    /* parte do resultado */
+    .container_resultado {
+        padding: 0.5em;
+        font-size: 1.3em;
+        margin-top: 2rem;
+    }
+
+    /* parte para reiniciar o jogo*/
+    .container_reniciar_jogo {
+        font-size: 1em;
+        width: 50%;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+
+
+}

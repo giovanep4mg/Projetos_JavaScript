@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto - Login</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./login.css" />
+    <!-- JavaScript -->
+    <script src="./login.js"></script>
+</head>
+
+<body>
+
+    <section class="container_tudo">
+        <header class="containerr_titulo">
+            <h1 class="titulo">Login</h1>
+        </header>
+
+        <form id="formulario" class="formulario">
+
+            <div class="container_nome_login">
+                <label for="nomeLogin" class="nomeUsuario">Nome do usuário:</label>
+                <input type="text" placeholder="Digite seu nome" id="nomeLogin" class="recebeNome" />
+                <p id="avisoNome" class="avisoNome"></p>
+            </div>
+
+            <br>
+
+            <div class="container_senha">
+                <label for="senhaLogin" class="texto_senha_Usuario">Senha:</label>
+                <input type="number" class="senhaEntrada" id="senhaLogin" placeholder="Digite sua senha">
+                <p id="avisoSenha" class="avisoSenha"></p>
+            </div>
+
+            <br>
+
+            <button type="button" title="enviarDados" onclick="enviarDados()" class="botao">
+                Entrar
+            </button>
+
+            <div class="container_criar-conta">
+                
+                <h2 class="Texto_criar_conta">
+                    Ainda não possui uma conta?
+                </h2>
+
+                <a class="btn_criar_conta" href="../criar_conta/criar_conta.html"> Criar conta </a>
+
+            </div>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>

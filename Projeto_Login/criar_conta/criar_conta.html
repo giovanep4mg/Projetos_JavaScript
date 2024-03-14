@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto - Login - Criar Conta</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./criar_conta.css" />
+    <!-- JavaScript -->
+    <script src="./criar_conta.js"></script>
+</head>
+
+<body>
+
+    <section class="container_tudo">
+
+        <header class="containerr_titulo">
+            <h1 class="titulo">Criar Conta</h1>
+        </header>
+
+        <form id="formulario" class="formulario">
+
+            <div class="container_nome">
+                <label for="nome" class="nomeUsuario">Nome de Usário:</label>
+                <input type="text" placeholder="Digite seu nome" id="nome" class="recebeNome" />
+                <p id="avisoNome" class="avisoNome"></p>
+            </div>
+
+            <br>
+
+            <div class="container_senha">
+                <label for="senha" class="texto_senha_Usuario">Senha:</label>
+                <input type="number" class="senhaEntrada" id="senha" placeholder="Digite sua senha">
+                <p id="avisoSenha" class="avisoSenha"></p>
+            </div>
+
+            <br>
+
+            <button type="button" title="enviarDados" onclick="enviarDados()" class="botao">
+                Enviar
+            </button>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>

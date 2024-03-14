@@ -1,0 +1,24 @@
+***
+coisas a fazer no Projeto Login
+
+-- Ajustar a verificação dos dados inseridos com os dados do banco de dados.
+    ** Realizado com sucesso.
+
+-- Ajustar css de todas as páginas.
+    * CSS página  " Login ":
+    -> Responsividade 2561px = realizada.
+    -> Responsividade 1441px = realizada.
+    -> Responsividade 1025px = realizada.
+    -> Responsividade 769px = realizada.
+    -> Responsividade 426px = realizada.
+    -> Responsividade 376px = realizada.
+    -> Responsividade 321px = realizada.
+
+    * CSS página  " Criar Conta ":
+    -> Responsividade 2561px = realizada.
+    -> Responsividade 1441px = realizada.
+    -> Responsividade 1025px = realizada.
+    -> Responsividade 769px = realizada.
+    -> Responsividade 426px = realizada.
+    -> Responsividade 376px = realizada.
+    -> Responsividade 321px = realizada.
